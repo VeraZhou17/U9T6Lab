@@ -1,0 +1,17 @@
+public class ShippingItem
+{
+  private double weight; // in ounces
+  private static double COST_PER_OZ = 1.5;
+  
+  public ShippingItem(double w)
+  {
+    weight = w;
+  }
+  
+  public double getCost()
+  {
+    /* TO BE IMPLEMENTED IN PART A */
+    double cost = weight * COST_PER_OZ;
+    return cost;
+  }
+}
